@@ -1,0 +1,5 @@
+FROM seastar:latest
+
+RUN pip3 install meson
+
+ENTRYPOINT ["bash"]
