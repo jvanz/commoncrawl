@@ -1,0 +1,3 @@
+[submodule "subprojects/libwarc"]
+	path = subprojects/libwarc
+	url = git@github.com:buggyteam/libwarc.git
