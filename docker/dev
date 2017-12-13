@@ -2,6 +2,6 @@ FROM seastar:17.05.0
 
 RUN pip3 install meson
 
-RUN dnf install -y gtest-devel #libwarc test framework
+RUN dnf install -y gtest-devel librdkafka-devel
 
 ENTRYPOINT ["bash"]
